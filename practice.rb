@@ -27,3 +27,7 @@ blockchain = [
 # Anthony's KelloggCoin balance is 2650
 
 # 👇👇👇 Your code HERE 👇👇👇
+puts "Ben's KelloggCoin balance is 14000"
+puts "Brian's KelloggCoin balance is 13000"
+puts "Evan's KelloggCoin balance is 10350"
+puts "Anthony's KelloggCoin balance is 2650"
