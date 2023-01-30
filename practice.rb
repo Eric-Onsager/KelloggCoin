@@ -38,7 +38,19 @@ Brians_Transaction1 = blockchain[1]["amount"]
 Brians_Transaction2 = blockchain[3]["amount"]
 Brians_Balance = Brians_Transaction1 - Brians_Transaction2
 
+Evans_Transaction1 = blockchain[2]["amount"]
+Evans_Transaction2 = blockchain[4]["amount"]
+Evans_Transaction3 = blockchain[7]["amount"]
+Evans_Balance = Evans_Transaction1 - Evans_Transaction2 + Evans_Transaction3
 
+Anthonys_Transaction1 = blockchain[3]["amount"]
+Anthonys_Transaction2 = blockchain[4]["amount"]
+Anthonys_Transaction3 = blockchain[5]["amount"]
+Anthonys_Transaction4 = blockchain[6]["amount"]
+Anthonys_Transaction5 = blockchain[7]["amount"]
+Anthonys_Balance = Anthonys_Transaction1 + Anthonys_Transaction2 + Anthonys_Transaction3 - Anthonys_Transaction4 - Anthonys_Transaction5
 
 puts "Ben's KelloggCoin Balance is " + Bens_Balance.to_s
 puts "Brian's KelloggCoin Balance is " + Brians_Balance.to_s
+puts "Evan's KelloggCoin Balance is " + Evans_Balance.to_s
+puts "Anthony's KelloggCoin Balance is " + Anthonys_Balance.to_s
